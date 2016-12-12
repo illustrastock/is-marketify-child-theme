@@ -1,0 +1,145 @@
+/*
+ Theme Name:     Marketify Theme by MLS
+ Theme URI:      http://astoundify.com/themes/marketify
+ Author:         My language skills Team
+ Author URI:     http://mylanguageskills.wordpress.com
+ Description:    Marketify Child Theme by My language skills
+ Version:        1.0
+ License:        GNU General Public License
+ License URI:    license.txt
+ Text Domain:    marketify
+ Domain Path:    /languages/
+ Tags: white, two-column, one-column, right-sidebar, left-sidebar, flexible-width, custom-background, custom-header, theme-options, full-width-template, featured-images, flexible-header, custom-menu, translation-ready
+ Template:       marketify
+*/
+
+/**
+ * Place Custom CSS Below this.
+*/
+
+/*===============Site Header===============*/
+.site-header{background-color:#f6f6f6;}
+.header-outer{background-color:#f6f6f6;}
+/* site title colors."vector by illustrastock" */
+.site-branding .site-title a{color:#777;}
+.site-branding .site-title a:hover{color:#4ed0aa;}
+
+/* header menu selection's color  */
+.nav-menu--primary-toggle,.nav-menu--primary-toggle:hover{color:#777;}  
+
+.nav-menu--primary .menu ul{list-style-type: none; outline:none;}
+
+/* when the mouse over, change to menu selection's color */
+.nav-menu--primary li :hover{color:#4ed0aa;}
+
+/* when the mouse over, change to menu frame's wight and color */
+.nav-menu li:hover:not(.menu-item-has-children):not(.page_item_has_children)
+{box-shadow:0 0 3px #4ed0aa;}
+
+/* sub-menu settings */
+.sub-menu li a:hover{
+outline:none;
+display:block;
+color:#252525;
+background-color:#4ed0aa;}
+
+/*===============Page-Header Search===============*/
+/*page title colors.#vector*/
+.page-title{ font-weight:lighter;
+color:#777;}
+
+/*search icon colors*/
+.home-search .page-header .search-submit{background-color:#4ed0aa;}
+
+/*search form colors*/
+::-webkit-input-placeholder,::-moz-placeholder { /* Chrome and firefox*/
+  color:#dde0e7;
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+
+
+/*Login page settings*/
+/*======== Change background image for Login page ========*/
+body.login {
+	background-color:#f1f1f1 !important ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;}
+/*======== Change to login logo and add custom image  ========
+.login h1 a { background-image: url('login-logo.png');}
+*/
+/*========the labels to make the text darker, and the form input boxes========*/
+.login label {
+  font-size: 12px;
+  color: #555555;
+}
+
+.login input[type="text"]{
+  background-color: #ffffff;
+  border-color:#dddddd;
+  -webkit-border-radius: 4px;
+}
+
+.login input[type="password"]{
+  background-color: #ffffff;
+  border-color:#dddddd;
+  -webkit-border-radius: 4px;
+}
+/*========style the button to make it a lighter shade of blue========*/
+.login .button-primary {
+  width: 120px;
+  float:right;
+  background-color:#17a8e3 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#17a8e3), to(#17a8e3));
+  background: -webkit-linear-gradient(top, #17a8e3, #17a8e3);
+  background: -moz-linear-gradient(top, #17a8e3, #17a8e3);
+  background: -ms-linear-gradient(top, #17a8e3, #17a8e3);
+  background: -o-linear-gradient(top, #17a8e3, #17a8e3);
+  background-image: -ms-linear-gradient(top, #17a8e3 0%, #17a8e3 100%);
+  color: #ffffff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #0d9ed9;
+}
+
+.login .button-primary:hover {
+  background-color:#17a8e3 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#17a8e3), to(#0d9ed9 ));
+  background: -webkit-linear-gradient(top, #17a8e3, #0d9ed9 );
+  background: -moz-linear-gradient(top, #17a8e3, #0d9ed9 );
+  background: -ms-linear-gradient(top, #17a8e3, #0d9ed9 );
+  background: -o-linear-gradient(top, #17a8e3, #0d9ed9 );
+  background-image: -ms-linear-gradient(top, #0b436e 0%, #0d9ed9 100%);
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #0d9ed9;
+}
+
+.login .button-primary:active {
+  background-color:#17a8e3 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0d9ed9), to(#17a8e3));
+  background: -webkit-linear-gradient(top, #0d9ed9, #17a8e3);
+  background: -moz-linear-gradient(top, #0d9ed9, #17a8e3);
+  background: -ms-linear-gradient(top, #0d9ed9, #17a8e3);
+  background: -o-linear-gradient(top, #0d9ed9, #17a8e3);
+  background-image: -ms-linear-gradient(top, #0d9ed9 0%, #17a8e3 100%);
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #0d9ed9;
+}
+/*========remove lost password========*/
+p#nav {
+  /*display: none;*/
+}
+/*========Remove the “Back to” Link========*/
+p#backtoblog {
+  /*display: none;*/
+}
+
+
+ 
+
+
+
+
+
